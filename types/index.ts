@@ -53,3 +53,5 @@ export interface ShowMoreProps {
   pageNumber: number;
   isNext: boolean;
 }
+
+export type CarState = CarProps[] & { message?: string };
